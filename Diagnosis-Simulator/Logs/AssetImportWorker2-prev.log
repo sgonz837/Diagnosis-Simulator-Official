@@ -1,0 +1,294 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.19f1 (2fd7b40534d1) revision 3135412'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 8103 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Users\12675\Documents\Unity\UnityPro\Unity 2022.1.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/12675/Documents/GitHub/Diagnosis-Simulator-Official/Diagnosis-Simulator
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54193
+Successfully changed project path to: C:/Users/12675/Documents/GitHub/Diagnosis-Simulator-Official/Diagnosis-Simulator
+C:/Users/12675/Documents/GitHub/Diagnosis-Simulator-Official/Diagnosis-Simulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 260.01 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.19f1 (2fd7b40534d1)
+[Subsystems] Discovering subsystems at path C:/Users/12675/Documents/Unity/UnityPro/Unity 2022.1.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/12675/Documents/GitHub/Diagnosis-Simulator-Official/Diagnosis-Simulator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     4051 MB
+    Driver:   27.20.100.9171
+Initialize mono
+Mono path[0] = 'C:/Users/12675/Documents/Unity/UnityPro/Unity 2022.1.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/12675/Documents/Unity/UnityPro/Unity 2022.1.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/12675/Documents/Unity/UnityPro/Unity 2022.1.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/12675/Documents/Unity/UnityPro/Unity 2022.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013396 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 156.17 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.248 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1248ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (817ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+				TypeCache.Initialize (166ms)
+					TypeCache.ScanAssembly (165ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (522ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (156ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (148ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (5ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.170440 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\12675\Documents\GitHub\Diagnosis-Simulator-Official\Diagnosis-Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\12675\Documents\GitHub\Diagnosis-Simulator-Official\Diagnosis-Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 502.77 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  5.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5039ms)
+		BeginReloadAssembly (688ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (110ms)
+		EndReloadAssembly (3939ms)
+			LoadAssemblies (561ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1425ms)
+				TypeCache.Initialize (1383ms)
+					TypeCache.ScanAssembly (1373ms)
+				ResolveRequiredComponents (42ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (266ms)
+			SetupLoadedEditorAssemblies (1649ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (33ms)
+				RefreshPlugins (503ms)
+				BeforeProcessingInitializeOnLoad (236ms)
+				ProcessInitializeOnLoadAttributes (644ms)
+				ProcessInitializeOnLoadMethodAttributes (195ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.41 seconds
+Refreshing native plugins compatible for Editor in 3.28 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 98 unused Assets / (3.8 MB). Loaded Objects now: 6495.
+Memory consumption went from 0.93 GB to 0.93 GB.
+Total: 22.339300 ms (FindLiveObjects: 0.730800 ms CreateObjectMapping: 1.422500 ms MarkObjects: 16.315000 ms  DeleteObjects: 3.869200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 218878.380876 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(3aff130505a854c4eaee07ea4419bb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3aff130505a854c4eaee07ea4419bb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376c343d13cc93b41cc75922c73d95fd') in 0.031517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.193628 seconds.
+  path: Assets/Scenes/Heart_Button.unity
+  artifactKey: Guid(ead3a190d2df7314383f0d9de1d998a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Heart_Button.unity using Guid(ead3a190d2df7314383f0d9de1d998a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad452c1439308c2b53532d00b1fd8ae') in 0.023098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.239131 seconds.
+  path: Assets/Scenes/Heart_Scene.unity
+  artifactKey: Guid(ead3a190d2df7314383f0d9de1d998a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Heart_Scene.unity using Guid(ead3a190d2df7314383f0d9de1d998a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52ac52d4331131d3a9d849e6b9fcd68') in 0.019472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.044951 seconds.
+  path: Assets/Scenes/Lungs_Scene.unity
+  artifactKey: Guid(2a1937bc1ae378a4b93a93544c887218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lungs_Scene.unity using Guid(2a1937bc1ae378a4b93a93544c887218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df022cee197983b1549c7cf93ee9e18') in 0.016734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.092131 seconds.
+  path: Assets/Scenes/Intestines_Scene.unity
+  artifactKey: Guid(84f3447e397342d43bcf1856257647db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Intestines_Scene.unity using Guid(84f3447e397342d43bcf1856257647db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b77a0fdc21b8e138543ae57ac460cca') in 0.023421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.582229 seconds.
+  path: Assets/Scenes/Kidneys_Scene.unity
+  artifactKey: Guid(22b8456bffc9f82459c75d8927baa2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kidneys_Scene.unity using Guid(22b8456bffc9f82459c75d8927baa2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418299c3080956362f17a81d74c0fb07') in 0.031703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.486515 seconds.
+  path: Assets/Scenes/Liver_Scene.unity
+  artifactKey: Guid(9d6b2f15da9b1c84bab817a5284ac4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Liver_Scene.unity using Guid(9d6b2f15da9b1c84bab817a5284ac4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b320a1f5c0576a8b874b26922f3d2a09') in 0.017228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.743592 seconds.
+  path: Assets/Scenes/Brain_Scene.unity
+  artifactKey: Guid(1418d1e7d3e4d3d41ba275c8140d1155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Brain_Scene.unity using Guid(1418d1e7d3e4d3d41ba275c8140d1155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e243afc6e2264525cb43cc21495d4cd5') in 0.022197 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027217 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\12675\Documents\GitHub\Diagnosis-Simulator-Official\Diagnosis-Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\12675\Documents\GitHub\Diagnosis-Simulator-Official\Diagnosis-Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  3.161 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3162ms)
+		BeginReloadAssembly (656ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (152ms)
+		EndReloadAssembly (2222ms)
+			LoadAssemblies (387ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (532ms)
+				TypeCache.Initialize (509ms)
+					TypeCache.ScanAssembly (495ms)
+				ResolveRequiredComponents (23ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (812ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (470ms)
+				ProcessInitializeOnLoadMethodAttributes (146ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 15.50 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5980 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (3.7 MB). Loaded Objects now: 6500.
+Memory consumption went from 0.93 GB to 0.93 GB.
+Total: 11.468300 ms (FindLiveObjects: 0.641400 ms CreateObjectMapping: 0.665600 ms MarkObjects: 7.649700 ms  DeleteObjects: 2.509200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 103.176810 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(25a93dcad962e174181af5155f823b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(25a93dcad962e174181af5155f823b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4e9bb6e8446b08bfeac478818cf08c') in 0.062606 seconds 
