@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &9589400
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1588,7 +1588,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &242299684
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1622,7 +1622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 127dfd4228b83ba40b3b69206cecefb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  head: {fileID: 0}
+  head: {fileID: 150582374}
   spawnDistance: 2
   menu: {fileID: 9589399}
   showButton:
@@ -5031,7 +5031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b86ff6ad019bf0d44a8e18d58c778cec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  area: 5
+  area: 0
 --- !u!114 &839244586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5364,7 +5364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b86ff6ad019bf0d44a8e18d58c778cec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  area: 3
+  area: 0
 --- !u!114 &887864669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8113,7 +8113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b86ff6ad019bf0d44a8e18d58c778cec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  area: 2
+  area: 0
 --- !u!114 &1431550330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8720,7 +8720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b86ff6ad019bf0d44a8e18d58c778cec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  area: 4
+  area: 0
 --- !u!114 &1517076402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9992,6 +9992,10 @@ GameObject:
   - component: {fileID: 1631173016}
   - component: {fileID: 1631173015}
   - component: {fileID: 1631173014}
+  - component: {fileID: 1631173019}
+  - component: {fileID: 1631173018}
+  - component: {fileID: 1631173017}
+  - component: {fileID: 1631173020}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -10059,6 +10063,121 @@ MonoBehaviour:
   m_CameraFloorOffsetObject: {fileID: 682201585}
   m_RequestedTrackingOriginMode: 0
   m_CameraYOffset: 1.1176
+--- !u!114 &1631173017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631173012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 919e39492806b334982b6b84c90dd927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 1631173019}
+  m_TurnSpeed: 60
+  m_LeftHandTurnAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Left Hand Turn
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 50bed2e8-632a-43eb-a082-96ad357aaf4a
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_RightHandTurnAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Hand Turn
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: b37ddd7a-4aa2-4182-92aa-e2c9a00f5b12
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -6493913391331992944, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+--- !u!114 &1631173018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631173012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf296fc962d7184ab14ad1841598d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 1631173019}
+  m_MoveSpeed: 5
+  m_EnableStrafe: 1
+  m_EnableFly: 0
+  m_UseGravity: 1
+  m_GravityApplicationMode: 1
+  m_ForwardSource: {fileID: 0}
+  m_LeftHandMoveAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Hand Move
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: acd3e526-dd66-496f-aafa-20126cf6ed6b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  m_RightHandMoveAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Right Hand Move
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 07b421e3-2041-44fe-88c6-83040f09f677
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+--- !u!114 &1631173019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631173012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Timeout: 10
+  m_XROrigin: {fileID: 1631173016}
+--- !u!143 &1631173020
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631173012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &1637693818
 GameObject:
   m_ObjectHideFlags: 0
@@ -11624,7 +11743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b86ff6ad019bf0d44a8e18d58c778cec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  area: 6
+  area: 0
 --- !u!114 &1915646076
 MonoBehaviour:
   m_ObjectHideFlags: 0
