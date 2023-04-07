@@ -1,3 +1,10 @@
+/* 
+    Name: Sayan Gonzalez
+    Description: Opens a inactive canvas if the player presses the associated button
+                then adjusts it to the players head
+ */
+
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class Clipboard : MonoBehaviour
