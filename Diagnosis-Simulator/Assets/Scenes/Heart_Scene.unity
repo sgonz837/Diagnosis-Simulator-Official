@@ -4997,6 +4997,7 @@ GameObject:
   - component: {fileID: 426992591}
   - component: {fileID: 426992590}
   - component: {fileID: 426992589}
+  - component: {fileID: 426992592}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -5161,6 +5162,45 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
+--- !u!114 &426992592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426992584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be44105302040f40b82c227c3637a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  increaseHeight:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Increase Height
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 39bee1c4-858b-4f6d-af54-7c714f135a00
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1647291461250630773, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  decreaseHeight:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Decrease Height
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: f074e2b9-3d9f-4e52-a630-ef3e8d34cba5
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 800950620825523921, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  heightScale: 3
 --- !u!1 &462521308
 GameObject:
   m_ObjectHideFlags: 0
@@ -8246,7 +8286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 48aa2eb355494d24db0eb01b816e5de6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -187.12
+      value: -197.51
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 48aa2eb355494d24db0eb01b816e5de6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17528,7 +17568,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541882665}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.2424, y: 5.17, z: 20.0681}
+  m_LocalPosition: {x: 6.2424, y: -4.34, z: 20.0681}
   m_LocalScale: {x: 92.50469, y: 1, z: 71.67832}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26799,6 +26839,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105994186}
   m_CullTransparentMesh: 1
+--- !u!1 &2107789325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2107789326}
+  - component: {fileID: 2107789327}
+  m_Layer: 0
+  m_Name: Height Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2107789326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107789325}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -257.47705, y: 54.763535, z: 235.07608}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2107789327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107789325}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be44105302040f40b82c227c3637a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  increaseHeight:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Increase Height
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 8253c4da-6f53-476b-9215-c7d82dae3fa3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  decreaseHeight:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Decrease Height
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 37ce3bba-dbbb-4111-b800-27207330cb7b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  heightScale: 1
 --- !u!1 &2109489932
 GameObject:
   m_ObjectHideFlags: 0
