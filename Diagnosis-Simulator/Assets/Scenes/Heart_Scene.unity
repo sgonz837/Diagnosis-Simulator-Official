@@ -1148,8 +1148,9 @@ GameObject:
   - component: {fileID: 107366211}
   - component: {fileID: 107366210}
   - component: {fileID: 107366209}
+  - component: {fileID: 107366213}
   m_Layer: 5
-  m_Name: Body Guide Arrow (4)
+  m_Name: Symptom Right 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1235,9 +1236,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 107366209}
-        m_TargetAssemblyTypeName: NextButton, Assembly-CSharp
-        m_MethodName: OnButtonClick
+      - m_Target: {fileID: 107366213}
+        m_TargetAssemblyTypeName: ClipboardGameplay, Assembly-CSharp
+        m_MethodName: Symptom2ForwardButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1285,6 +1286,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107366207}
   m_CullTransparentMesh: 1
+--- !u!114 &107366213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107366207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0caa19545f0ddb4ba97a7420f97ae44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 1509042507}
 --- !u!1 &111517749
 GameObject:
   m_ObjectHideFlags: 0
@@ -4252,13 +4266,14 @@ GameObject:
   - component: {fileID: 360231900}
   - component: {fileID: 360231902}
   - component: {fileID: 360231901}
+  - component: {fileID: 360231903}
   m_Layer: 5
   m_Name: Diagnoses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &360231900
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4272,17 +4287,17 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 531489170}
+  - {fileID: 311596674}
+  - {fileID: 1726079723}
+  - {fileID: 1310105308}
+  - {fileID: 870070134}
   - {fileID: 503749667}
   - {fileID: 1293418713}
   - {fileID: 486215732}
   - {fileID: 1584039602}
-  - {fileID: 870070134}
-  - {fileID: 897358278}
   - {fileID: 1550046738}
   - {fileID: 653882452}
-  - {fileID: 311596674}
-  - {fileID: 1726079723}
-  - {fileID: 1310105308}
+  - {fileID: 897358278}
   - {fileID: 107366208}
   - {fileID: 503131993}
   - {fileID: 1196290634}
@@ -4337,6 +4352,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360231899}
   m_CullTransparentMesh: 1
+--- !u!114 &360231903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360231899}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0caa19545f0ddb4ba97a7420f97ae44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 0}
 --- !u!1001 &364917074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5708,8 +5736,9 @@ GameObject:
   - component: {fileID: 503131996}
   - component: {fileID: 503131995}
   - component: {fileID: 503131994}
+  - component: {fileID: 503131998}
   m_Layer: 5
-  m_Name: Body Guide Arrow (5)
+  m_Name: Symptom Right 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5795,9 +5824,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 503131994}
-        m_TargetAssemblyTypeName: NextButton, Assembly-CSharp
-        m_MethodName: OnButtonClick
+      - m_Target: {fileID: 503131998}
+        m_TargetAssemblyTypeName: ClipboardGameplay, Assembly-CSharp
+        m_MethodName: Symptom3ForwardButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5845,6 +5874,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503131992}
   m_CullTransparentMesh: 1
+--- !u!114 &503131998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503131992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0caa19545f0ddb4ba97a7420f97ae44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 1343845173}
 --- !u!1001 &503749666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7494,8 +7536,9 @@ GameObject:
   - component: {fileID: 653882455}
   - component: {fileID: 653882454}
   - component: {fileID: 653882453}
+  - component: {fileID: 653882457}
   m_Layer: 5
-  m_Name: Body Guide Arrow (3)
+  m_Name: Symptom Left 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7581,9 +7624,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 653882453}
-        m_TargetAssemblyTypeName: NextButton, Assembly-CSharp
-        m_MethodName: OnButtonClick
+      - m_Target: {fileID: 653882457}
+        m_TargetAssemblyTypeName: ClipboardGameplay, Assembly-CSharp
+        m_MethodName: Symptom3BackwardButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7631,6 +7674,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653882451}
   m_CullTransparentMesh: 1
+--- !u!114 &653882457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653882451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0caa19545f0ddb4ba97a7420f97ae44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 1343845173}
 --- !u!1 &674334137
 GameObject:
   m_ObjectHideFlags: 0
@@ -10218,8 +10274,9 @@ GameObject:
   - component: {fileID: 897358281}
   - component: {fileID: 897358280}
   - component: {fileID: 897358279}
+  - component: {fileID: 897358283}
   m_Layer: 5
-  m_Name: Body Guide Arrow (1)
+  m_Name: Symptom Right 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10305,9 +10362,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 897358279}
-        m_TargetAssemblyTypeName: NextButton, Assembly-CSharp
-        m_MethodName: OnButtonClick
+      - m_Target: {fileID: 897358283}
+        m_TargetAssemblyTypeName: ClipboardGameplay, Assembly-CSharp
+        m_MethodName: Symptom1ForwardButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10355,6 +10412,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897358277}
   m_CullTransparentMesh: 1
+--- !u!114 &897358283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897358277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0caa19545f0ddb4ba97a7420f97ae44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 1196290635}
 --- !u!1 &934934925
 GameObject:
   m_ObjectHideFlags: 0
@@ -12887,7 +12957,7 @@ GameObject:
   - component: {fileID: 1196290636}
   - component: {fileID: 1196290635}
   m_Layer: 5
-  m_Name: Text (TMP) (5)
+  m_Name: Symptom 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15343,7 +15413,7 @@ GameObject:
   - component: {fileID: 1343845174}
   - component: {fileID: 1343845173}
   m_Layer: 5
-  m_Name: Text (TMP) (7)
+  m_Name: Symptom 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17220,7 +17290,7 @@ GameObject:
   - component: {fileID: 1509042508}
   - component: {fileID: 1509042507}
   m_Layer: 5
-  m_Name: Text (TMP) (6)
+  m_Name: Symptom 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17588,8 +17658,9 @@ GameObject:
   - component: {fileID: 1550046741}
   - component: {fileID: 1550046740}
   - component: {fileID: 1550046739}
+  - component: {fileID: 1550046743}
   m_Layer: 5
-  m_Name: Body Guide Arrow (2)
+  m_Name: Symptom Left 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17675,9 +17746,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1550046739}
-        m_TargetAssemblyTypeName: NextButton, Assembly-CSharp
-        m_MethodName: OnButtonClick
+      - m_Target: {fileID: 1550046743}
+        m_TargetAssemblyTypeName: ClipboardGameplay, Assembly-CSharp
+        m_MethodName: Symptom2BackwardButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17725,6 +17796,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550046737}
   m_CullTransparentMesh: 1
+--- !u!114 &1550046743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550046737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0caa19545f0ddb4ba97a7420f97ae44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 1509042507}
 --- !u!1 &1550736060
 GameObject:
   m_ObjectHideFlags: 0
@@ -18413,8 +18497,9 @@ GameObject:
   - component: {fileID: 1584039605}
   - component: {fileID: 1584039604}
   - component: {fileID: 1584039603}
+  - component: {fileID: 1584039607}
   m_Layer: 5
-  m_Name: Body Guide Arrow
+  m_Name: Symptom Left 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18500,9 +18585,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1584039603}
-        m_TargetAssemblyTypeName: NextButton, Assembly-CSharp
-        m_MethodName: OnButtonClick
+      - m_Target: {fileID: 1584039607}
+        m_TargetAssemblyTypeName: ClipboardGameplay, Assembly-CSharp
+        m_MethodName: Symptom1BackwardButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18550,6 +18635,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584039601}
   m_CullTransparentMesh: 1
+--- !u!114 &1584039607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584039601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0caa19545f0ddb4ba97a7420f97ae44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 1196290635}
 --- !u!1 &1617179978
 GameObject:
   m_ObjectHideFlags: 0
