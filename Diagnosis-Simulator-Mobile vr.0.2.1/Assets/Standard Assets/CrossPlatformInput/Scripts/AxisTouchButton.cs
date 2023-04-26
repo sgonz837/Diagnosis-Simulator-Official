@@ -69,7 +69,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		public void OnPointerUp(PointerEventData data)
 		{
-			m_Axis.Update(Mathf.MoveTowards(m_Axis.GetValue, 0, responseSpeed * Time.deltaTime));
+			m_Axis.Update(Mathf.MoveTowards(m_Axis.GetValue, 0, returnToCentreSpeed * Time.deltaTime));
 		}
 	}
 }
