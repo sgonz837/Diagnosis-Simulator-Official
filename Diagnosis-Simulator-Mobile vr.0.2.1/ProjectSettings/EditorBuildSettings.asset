@@ -4,5 +4,30 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Heart_Scene.unity
+    guid: ead3a190d2df7314383f0d9de1d998a1
+  - enabled: 0
+    path: Assets/Scenes/Brain_Scene.unity
+    guid: 1418d1e7d3e4d3d41ba275c8140d1155
+  - enabled: 0
+    path: Assets/Scenes/Lungs_Scene.unity
+    guid: 2a1937bc1ae378a4b93a93544c887218
+  - enabled: 0
+    path: Assets/Scenes/Intestines_Scene.unity
+    guid: 84f3447e397342d43bcf1856257647db
+  - enabled: 0
+    path: Assets/Scenes/Kidneys_Scene.unity
+    guid: 22b8456bffc9f82459c75d8927baa2d6
+  - enabled: 0
+    path: Assets/Scenes/Liver_Scene.unity
+    guid: 9d6b2f15da9b1c84bab817a5284ac4f1
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 53f0e0ecddb475d49a670bdd62079ca4,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: d301aac97707d7b4f982c285cc652e9e,
+      type: 2}
