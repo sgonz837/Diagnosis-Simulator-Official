@@ -7,9 +7,9 @@ public class GameplayVariables : MonoBehaviour
     public static bool startGame;
     public static bool stopGame;
 
-    public static string symptom1;
-    public static string symptom2;
-    public static string symptom3;
+    public static bool disease1 = false;
+    public static bool disease2 = false;
+    public static bool disease3 = false;
 
     public static int symptom1Int = 1;
     public static int symptom2Int = 1;

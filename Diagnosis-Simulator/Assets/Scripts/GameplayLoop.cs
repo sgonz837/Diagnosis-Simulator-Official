@@ -18,14 +18,6 @@ public class GameplayLoop : MonoBehaviour
         Randomizer();
 
         GamePlayLoop();
-
-        /*
-        if (GameplayVariables.startGame == true)
-        {
-            Randomizer();
-        }
-        */
-        //Randomizer();
     }
 
     // Update is called once per frame
@@ -61,25 +53,32 @@ public class GameplayLoop : MonoBehaviour
     public void Disease1()
     {
         GameplayVariables.symptom1Guess = 1;
-        GameplayVariables.symptom2Guess = 1;
-        GameplayVariables.symptom3Guess = 1;
+        GameplayVariables.symptom2Guess = 2;
+        GameplayVariables.symptom3Guess = 2;
+        GameplayVariables.disease1 = true;
 
         Debug.Log("Disease: " + randomNumber);
     }
 
     public void Disease2()
     {
-        GameplayVariables.symptom1 = " ";
-        GameplayVariables.symptom2 = " ";
-        GameplayVariables.symptom3 = " ";
+
+        GameplayVariables.disease2 = true;
+        GameplayVariables.symptom1Guess = 1;
+        GameplayVariables.symptom2Guess = 2;
+        GameplayVariables.symptom3Guess = 3;
+
         Debug.Log("Disease: " + randomNumber);
     }
 
     public void Disease3()
     {
-        GameplayVariables.symptom1 = " ";
-        GameplayVariables.symptom2 = " ";
-        GameplayVariables.symptom3 = " ";
+
+        GameplayVariables.disease3 = true;
+
+        GameplayVariables.symptom1Guess = 3;
+        GameplayVariables.symptom2Guess = 3;
+        GameplayVariables.symptom3Guess = 1;
         Debug.Log("Disease: " + randomNumber);
     }
     

@@ -11,33 +11,6 @@ public class ClipboardGameplay : MonoBehaviour
     //public Text textObject;
     public TextMeshProUGUI textObject;
 
-
-    //int symptom1 = 1;
-    //int symptom2 = 1;
-    //int symptom3 = 1;
-    //public Text textObject;
-    //public Text textObject;
-    //public Text textObject;
-    //public Text textObject;
-    //public Text textObject;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
-    public void Symptoms()
-    {
-        
-    }
-
     public void OnImageButtonClick()
     {
         // Handle the click event here
@@ -45,19 +18,19 @@ public class ClipboardGameplay : MonoBehaviour
 
     public void Symptom1ForwardButtonClick()
     {
-       // int count = 1;
+
         
         if (GameplayVariables.symptom1Int == 1)
         {
-            textObject.text = "New Text";
+            textObject.text = "Nausea";
             GameplayVariables.symptom1Int = 2;
         } else if (GameplayVariables.symptom1Int == 2)
         {
-            textObject.text = "New Text 2";
+            textObject.text = "Wheezing";
             GameplayVariables.symptom1Int = 3;
         } else if (GameplayVariables.symptom1Int == 3)
         {
-            textObject.text = "NewText3";
+            textObject.text = "Chest Pain";
             GameplayVariables.symptom1Int = 1;
         }
     }
@@ -66,17 +39,17 @@ public class ClipboardGameplay : MonoBehaviour
     {
         if (GameplayVariables.symptom1Int == 1)
         {
-            textObject.text = "New Text";
+            textObject.text = "Wheezing";
             GameplayVariables.symptom1Int = 3;
         }
         else if (GameplayVariables.symptom1Int == 2)
         {
-            textObject.text = "New Text 2";
+            textObject.text = "Chest Pain";
             GameplayVariables.symptom1Int = 1;
         }
         else if (GameplayVariables.symptom1Int == 3)
         {
-            textObject.text = "NewText3";
+            textObject.text = "Nausea";
             GameplayVariables.symptom1Int = 2;
         }
     }
@@ -84,17 +57,17 @@ public class ClipboardGameplay : MonoBehaviour
     {
         if (GameplayVariables.symptom2Int == 1)
         {
-            textObject.text = "New Text";
+            textObject.text = "Fatigue";
             GameplayVariables.symptom2Int = 2;
         }
         else if (GameplayVariables.symptom2Int == 2)
         {
-            textObject.text = "New Text 2";
+            textObject.text = "Rapid Breathing";
             GameplayVariables.symptom2Int = 3;
         }
         else if (GameplayVariables.symptom2Int == 3)
         {
-            textObject.text = "NewText3";
+            textObject.text = "Fainting";
             GameplayVariables.symptom2Int = 1;
         }
     }
@@ -102,17 +75,17 @@ public class ClipboardGameplay : MonoBehaviour
     {
         if (GameplayVariables.symptom2Int == 1)
         {
-            textObject.text = "New Text";
+            textObject.text = "Rapid Breathing";
             GameplayVariables.symptom2Int = 3;
         }
         else if (GameplayVariables.symptom2Int == 2)
         {
-            textObject.text = "New Text 2";
+            textObject.text = "Fainting";
             GameplayVariables.symptom2Int = 1;
         }
         else if (GameplayVariables.symptom2Int == 3)
         {
-            textObject.text = "NewText3";
+            textObject.text = "Fatigue";
             GameplayVariables.symptom2Int = 2;
         }
     }
@@ -122,17 +95,17 @@ public class ClipboardGameplay : MonoBehaviour
     {
         if (GameplayVariables.symptom3Int == 1)
         {
-            textObject.text = "New Text";
+            textObject.text = "Swollen Liver";
             GameplayVariables.symptom3Int = 2;
         }
         else if (GameplayVariables.symptom3Int == 2)
         {
-            textObject.text = "New Text 2";
+            textObject.text = "Dizziness";
             GameplayVariables.symptom3Int = 3;
         }
         else if (GameplayVariables.symptom3Int == 3)
         {
-            textObject.text = "NewText3";
+            textObject.text = "Chest Tightness";
             GameplayVariables.symptom3Int = 1;
         }
     }
@@ -141,35 +114,22 @@ public class ClipboardGameplay : MonoBehaviour
     {
         if (GameplayVariables.symptom3Int == 1)
         {
-            textObject.text = "New Text";
+            textObject.text = "Dizziness";
             GameplayVariables.symptom3Int = 3;
         }
         else if (GameplayVariables.symptom3Int == 2)
         {
-            textObject.text = "New Text 2";
+            textObject.text = "Chest Tightness";
             GameplayVariables.symptom3Int = 1;
         }
         else if (GameplayVariables.symptom3Int == 3)
         {
-            textObject.text = "NewText3";
+            textObject.text = "Swollen Liver";
             GameplayVariables.symptom3Int = 2;
         }
     }
 
-    public void Submit() 
-    { 
-        if(GameplayVariables.symptom1Guess == GameplayVariables.symptom1Int && GameplayVariables.symptom2Guess == GameplayVariables.symptom2Int && GameplayVariables.symptom3Guess == GameplayVariables.symptom3Int)
-        {
 
-        }
-        else
-        {
-
-        }
-    
-    
-    
-    }
 
 
 
