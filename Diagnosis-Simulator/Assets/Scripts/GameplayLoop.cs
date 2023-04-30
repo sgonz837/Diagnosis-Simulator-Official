@@ -81,6 +81,4 @@ public class GameplayLoop : MonoBehaviour
         GameplayVariables.symptom3Guess = 1;
         Debug.Log("Disease: " + randomNumber);
     }
-    
-
 }

@@ -5,12 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Brain_Scene.unity
-    guid: 1418d1e7d3e4d3d41ba275c8140d1155
+    path: Assets/Scenes/Default_Scene.unity
+    guid: ce81af92e042d334c829f28fd0942081
   - enabled: 1
     path: Assets/Scenes/Heart_Scene.unity
     guid: ead3a190d2df7314383f0d9de1d998a1
@@ -18,17 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Lungs_Scene.unity
     guid: 2a1937bc1ae378a4b93a93544c887218
   - enabled: 1
-    path: Assets/Scenes/Intestines_Scene.unity
-    guid: 84f3447e397342d43bcf1856257647db
-  - enabled: 1
-    path: Assets/Scenes/Default_Scene.unity
-    guid: ce81af92e042d334c829f28fd0942081
-  - enabled: 1
-    path: Assets/Scenes/Kidneys_Scene.unity
-    guid: 22b8456bffc9f82459c75d8927baa2d6
-  - enabled: 1
-    path: Assets/Scenes/Liver_Scene.unity
-    guid: 9d6b2f15da9b1c84bab817a5284ac4f1
+    path: Assets/Scenes/Credits_Scene.unity
+    guid: 3d428bec1d78fa84f9074fd43db36bd2
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 53f0e0ecddb475d49a670bdd62079ca4,
       type: 2}
