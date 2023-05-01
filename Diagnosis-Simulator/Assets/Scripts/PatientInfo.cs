@@ -64,7 +64,8 @@ public class PatientInfo : MonoBehaviour
         Gender.text = "Male";
         Weight.text = "180 pounds";
         Height.text = "6'0";
-        Reason.text = "Patient was taken to the hospital after faiting. Patient is rapidly breathing and states that she feels fatigue and is dizzy";
+        //Reason.text = "Patient was taken to the hospital after faiting. Patient is rapidly breathing and states that she feels fatigue and is dizzy";
+        Reason.text = "Patient is Wheezing,Rapid Breathing and feels tightness in their chest";
     }
 
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Submit : MonoBehaviour
 {
@@ -21,7 +22,7 @@ public class Submit : MonoBehaviour
         if (GameplayVariables.symptom1Guess == GameplayVariables.symptom1Int && GameplayVariables.symptom2Guess == GameplayVariables.symptom2Int && GameplayVariables.symptom3Guess == GameplayVariables.symptom3Int)
         {
             //take to main screen for now
-            Debug.Log("Win");
+            SceneManager.LoadScene(3);
         }
         else
         {
@@ -29,8 +30,6 @@ public class Submit : MonoBehaviour
             Debug.Log("symp1" + GameplayVariables.symptom1Int + "symp2" + GameplayVariables.symptom2Int + "symp3" + GameplayVariables.symptom3Int + "symp1I" + GameplayVariables.symptom1Guess + "symp2I" + GameplayVariables.symptom2Guess + "symp3I" + GameplayVariables.symptom3Guess);
             //message letting them know trhey its not right
         }
-
-
 
     }
 }

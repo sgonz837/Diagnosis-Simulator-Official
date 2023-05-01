@@ -1066,6 +1066,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "OpenTransport",
+                    "type": "Button",
+                    "id": "86238eef-1686-480a-ae1a-5e31ec8e7f61",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1275,6 +1284,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "DecreaseHeight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4560893-bdf4-4450-ba79-e8c2d57f20e0",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenTransport",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
