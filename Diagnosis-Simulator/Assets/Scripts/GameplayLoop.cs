@@ -45,6 +45,10 @@ public class GameplayLoop : MonoBehaviour
 
     public void Randomizer()
     {
+
+        GameplayVariables.disease1 = false;
+        GameplayVariables.disease2 = false;
+        GameplayVariables.disease3 = false;
         randomNumber = Random.Range(1, 3 + 1);
 
         Debug.Log("The Random Number: " + randomNumber);
@@ -68,6 +72,7 @@ public class GameplayLoop : MonoBehaviour
         GameplayVariables.symptom2Guess = 2;
         GameplayVariables.symptom3Guess = 3;
 
+        //GameplayVariables.disease2 = true;
         Debug.Log("Disease: " + randomNumber);
     }
 
@@ -79,6 +84,8 @@ public class GameplayLoop : MonoBehaviour
         GameplayVariables.symptom1Guess = 3;
         GameplayVariables.symptom2Guess = 3;
         GameplayVariables.symptom3Guess = 1;
+
+        //GameplayVariables.disease3 = true;
         Debug.Log("Disease: " + randomNumber);
     }
 }

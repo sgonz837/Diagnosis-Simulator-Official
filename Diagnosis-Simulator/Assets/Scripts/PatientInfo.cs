@@ -24,12 +24,15 @@ public class PatientInfo : MonoBehaviour
     {
         if(GameplayVariables.disease1 == true)
         {
+            Debug.Log("Patient 1");
             patient1();
         } else if (GameplayVariables.disease2 == true)
         {
+            Debug.Log("Patient 2");
             patient2();
         } else if (GameplayVariables.disease3== true)
         {
+            Debug.Log("Patient 3");
             patient3();
         }
     }
@@ -42,7 +45,7 @@ public class PatientInfo : MonoBehaviour
         Gender.text = "Male";
         Weight.text = "155 Pounds";
         Height.text = "5'8";
-        Reason.text = "Patient States that He feels pain in his chest and Feels Fatigue all the time ";
+        Reason.text = "Patient States that He feels pain in his chest and Feels Fatigue all the time. After a quick analysis, we noticed patient has a swollen liver";
     }
 
     public void patient2()
